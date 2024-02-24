@@ -1,16 +1,19 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 6rem;
+  gap : 10%;
   min-height: 100vh;
 }
 
+
+
 .description {
   display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+  justify-content: center;
+  align-items: center;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
@@ -20,8 +23,10 @@
 
 .description a {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 0.5rem;
 }
 
